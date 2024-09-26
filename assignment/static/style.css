@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+    
+
+header{
+    
+    height: 10vh;
+    background-color: rgba(0,0,0,0.5);
+    font-size:35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+main{
+
+    height: 70vh;
+    
+}
+.form{
+
+    display:flex;
+    flex-direction: column;
+    margin: 20px 20px  ;
+    height: 40vh;
+    width:  50vh;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.form button{
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.date{
+    float:  right;
+    margin: 10px 20px ;
+    padding:  10px 10px ;
+    
+}
+footer{
+    
+    height: 20vh;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-left:20px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+
+}
+
+.cont{
+    
+    width: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    
+}

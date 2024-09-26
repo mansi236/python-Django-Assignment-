@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'info.css'%}">
+</head>
+
+<body>
+    <p>Your Details </p>
+    <div class="info">
+        Name : {{name}} <br>
+        Email : {{mail}} <br>
+        Address : {{add}} <br> 
+        Mobile no : {{no}} <br>
+    </div>
+</body>
+
+</html>
